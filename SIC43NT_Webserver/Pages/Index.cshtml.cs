@@ -10,23 +10,23 @@ namespace SIC43NT_Webserver.Pages
 {
     public class IndexModel : PageModel
     {
-        public string default_key = "N/A";
-        public string uid = "N/A";
+        public string default_key = "";
+        public string uid = "";
 
         public string flagTamperTag = "-";
         public string timeStampTag_uint = "-";
-        public string timeStampTag_str = "N/A";
+        public string timeStampTag_str = "";
         public string rollingCodeTag = "-";
 
-        public string flagTamperServer = "N/A";
+        public string flagTamperServer = "";
         public uint timeStampServer_uint;
-        public string timeStampServer_str = "N/A";
-        public string rollingCodeServer = "N/A";
+        public string timeStampServer_str = "";
+        public string rollingCodeServer = "";
         public string rlc = "";
 
-        public string timeStampDecision = "N/A";
-        public string flagTamperDecision = "N/A";
-        public string rollingCodeDecision = "N/A";
+        public string timeStampDecision = "";
+        public string flagTamperDecision = "";
+        public string rollingCodeDecision = "";
 
         public void OnGet(string d)
         {
