@@ -12,7 +12,7 @@ namespace SIC43NT_Webserver.Pages
 
         public void OnGet()
         {
-            Message = "Your contact page.";
+            Message = "";
         }
     }
 }
