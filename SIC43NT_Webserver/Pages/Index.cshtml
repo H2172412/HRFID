@@ -37,6 +37,14 @@
         <td>@Model.flagTamperTag</td>
         <td>@Model.flagTamperServer</td>
         <td>@Model.flagTamperDecision</td>
+        @if (@Model.flagTamperTag == "AA")
+        {
+            <img id="qrCode" src="~/images/open.png" class="img" alt="Product status" width="50" height="50" />
+        }
+         @if (@Model.flagTamperTag == "-")
+        {
+            <img id="qrCode" src="~/images/close.png" class="img" alt="Product status" width="50" height="50" />
+        }
     </tr>
     <tr>
         <th>Time Stamp(DEC)</th>
